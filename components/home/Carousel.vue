@@ -11,7 +11,7 @@
       <img src="https://placehold.co/1000x370" class="d-block w-100" alt="Company">
       <div class="carousel-caption d-none d-md-block">
         <h5>Join The Festival</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>SLF 2025 Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
