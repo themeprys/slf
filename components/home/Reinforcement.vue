@@ -1,21 +1,20 @@
 <template>
-  <section class="bg-secondary text-white">
+  <section class="bg-dark text-white">
     <div class="container">
       <div class="row justify-content-center py-5">
         <div class="col-4 text-center">
             <img
               alt="Image"
-              src="https://wingman.mediumra.re/assets/img/avatar-male-3.jpg"
+              src="~/public/img/Kadek-Sonia-Piscayanti.png"
               class="avatar avatar-lg"
               width="180px"
             />
         </div>
-        <div class="col-8">    
+        <div class="col-6">    
               <p class="h2">
-                “With Wingman, we were able to turn out a stunning landing page
-                and compelling MVP for our SaaS App in no time.”
+                "We believe literature is a bridge connecting the past, present, and future, enabling modern generations to deeply understand their cultural heritage"
               </p>
-              <span>Samuel Canning, Movend</span>
+              <span>Kadek Sonia Piscayanti, Founder SLF</span>
         </div>
       </div>
     </div>

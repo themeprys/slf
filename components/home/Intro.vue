@@ -18,33 +18,33 @@
 
       <div class="row py-5">
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-pen-to-square fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Public Lecture</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-users fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Panel Discussion</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-paper-plane fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Workshop</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-book fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Book Launch</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-play-circle fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Movie Screening</h3>
         </div>        
       </div>
       <div class="row py-5">
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-music fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Music Performance</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-user fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Teater Performance</h3>
         </div>
         <div class="col">
@@ -52,7 +52,7 @@
           <h3 class="pt-4 h3 fs-5">Exhibition</h3>
         </div>
         <div class="col">
-          <i class="fa-solid fa-building fa-4x"></i>
+          <i class="fa-solid fa-pen-fancy fa-4x"></i>
           <h3 class="pt-4 h3 fs-5">Art Installation</h3>
         </div>
       </div>      

@@ -4,29 +4,34 @@
 
           <div class="row justify-content-around align-items-center py-5">
             <div class="col-12 col-md-6 col-lg-5 text-md-left section-intro">
-              <span class="title-decorative">Designed for Developers</span>
-              <h3 class="h1">Familiar, modern tooling</h3>
+              <!-- <span class="title-decorative">Singaraja Literary Festival (SLF)</span> -->
+              <h3 class="h1">About Us</h3>
               <span class="lead">
-                Wingman employs industry-standard development tools with an intuitive workflow designed to get you up and runnning faster.
+                SLF is a cultural initiative dedicated to documenting and revitalizing the intellectual wealth and literary traditions of Singaraja, Bali.
               </span>
-              <p><a href="#">Explore Documentation ›</a></p>
+              <p><nuxt-link to="/about-us">Read More ›</nuxt-link></p>
             </div>
             <div class="col-8 col-md-6 col-lg-4">
-              <img alt="Image" src="https://wingman.mediumra.re/assets/img/graphic-developer-group.svg" class="img-fluid shadow" width="300px">
+              <img alt="Image" src="~/public/logo_SLF.svg" width="400px">
             </div>
           </div>
 
           <div class="row justify-content-around align-items-center py-5">
             <div class="col-8 col-md-6 col-lg-4">
-              <img alt="Image" src="https://wingman.mediumra.re/assets/img/graphic-developer-group.svg" class="img-fluid shadow" width="300px">
+              <h3 class="h1">Our Vision</h3>
+              <span class="lead">
+                SLF held for everyone to reignite pride in Singaraja as a city of historical and cultural heritage.
+              </span>
+              <p><nuxt-link to="/about-us">Read More ›</nuxt-link></p>              
+              <!-- <img alt="Image" src="~/public/img/about-us.webp" class="shadow" width="500px"> -->
             </div>
             <div class="col-12 col-md-6 col-lg-5 text-md-left section-intro">
-              <span class="title-decorative">Designed for Developers</span>
-              <h3 class="h1">Familiar, modern tooling</h3>
+              <!-- <span class="title-decorative">Designed for Developers</span> -->
+              <h3 class="h1">Our Mission</h3>
               <span class="lead">
-                Wingman employs industry-standard development tools with an intuitive workflow designed to get you up and runnning faster.
+                Unearth the roots of Singaraja's literary works – bringing them to the stage, discussing, and documenting them
               </span>
-              <p><a href="#">Explore Documentation ›</a></p>
+              <p><nuxt-link to="/about-us">Read More ›</nuxt-link></p>
             </div>
           </div>
 

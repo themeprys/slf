@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col py-4">
           <p>
-            Copyright by My Company @ 2022 - All Rights Reseved<br />Design by
-            themePrys
+            Singaraja Literary Festival &copy; 2022 - 2025 | All Rights Reseved<br />Design by
+            @themePrys
           </p>
         </div>
       </div>
