@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -8,25 +8,31 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://placehold.co/1000x370" class="d-block w-100" alt="Company">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="slf_overlay"></div>
+      <div class="carousel-caption">
         <h5>Join The Festival</h5>
-        <p>SLF 2025 Some representative placeholder content for the first slide.</p>
+        <p>Experience the Magic of Singaraja Literary Festival</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
       </div>
+      <img src="~/public/img/hero-00.webp" class="d-block w-100" alt="Company">
     </div>
     <div class="carousel-item">
-      <img src="https://placehold.co/1000x370" class="d-block w-100" alt="Company">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="slf_overlay"></div>
+      <div class="carousel-caption">
         <h5>Become Our Partners</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <p>Experience the Magic of Singaraja Literary Festival</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>        
       </div>
+      <img src="~/public/img/hero-01.webp" class="d-block w-100" alt="Company">
     </div>
     <div class="carousel-item">
-      <img src="https://placehold.co/1000x370" class="d-block w-100" alt="Company">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="slf_overlay"></div>
+      <div class="carousel-caption">
         <h5>Get Your Invitation</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <p>Experience the Magic of Singaraja Literary Festival</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up Now</a>
       </div>
+      <img src="~/public/img/hero-02.webp" class="d-block w-100" alt="Company">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

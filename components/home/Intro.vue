@@ -4,29 +4,50 @@
       <div class="row justify-content-center py-5">
         <div class="col-xl-9">
           <h2 class="h1">
-            I'm baby +1 trust fund bushwick man bun marfa irony keytar craft
-            beer
+            A celebration of culture and literacy
           </h2>
         </div>
       </div>
       <div class="row py-5">
         <div class="col">
           <i class="fa-solid fa-building fa-4x"></i>
-          <h3 class="pt-4 h3 fs-5">Sit Lorem</h3>
+          <h3 class="pt-4 h3 fs-5">Public Lecture</h3>
         </div>
         <div class="col">
           <i class="fa-solid fa-building fa-4x"></i>
-          <h3 class="pt-4 h3 fs-5">Sit Ipsum</h3>
+          <h3 class="pt-4 h3 fs-5">Panel Discussion</h3>
         </div>
         <div class="col">
           <i class="fa-solid fa-building fa-4x"></i>
-          <h3 class="pt-4 h3 fs-5">Sit Dolor</h3>
+          <h3 class="pt-4 h3 fs-5">Workshop</h3>
         </div>
         <div class="col">
           <i class="fa-solid fa-building fa-4x"></i>
-          <h3 class="pt-4 h3 fs-5">Sit Amet</h3>
+          <h3 class="pt-4 h3 fs-5">Book Launch</h3>
         </div>
+        <div class="col">
+          <i class="fa-solid fa-building fa-4x"></i>
+          <h3 class="pt-4 h3 fs-5">Movie Screening</h3>
+        </div>        
       </div>
+      <div class="row py-5">
+        <div class="col">
+          <i class="fa-solid fa-building fa-4x"></i>
+          <h3 class="pt-4 h3 fs-5">Music Performance</h3>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-building fa-4x"></i>
+          <h3 class="pt-4 h3 fs-5">Teater Performance</h3>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-building fa-4x"></i>
+          <h3 class="pt-4 h3 fs-5">Exhibition</h3>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-building fa-4x"></i>
+          <h3 class="pt-4 h3 fs-5">Art Installation</h3>
+        </div>
+      </div>      
       <div class="row justify-content-center pt-2 pb-5">
         <div class="col-xl-9">
           <p>
