@@ -17,16 +17,16 @@
   
   <script setup>
   useHead({
-    title: 'Partners - Singaraja Literary Festival',
+    title: 'Get Your Invitation - Singaraja Literary Festival',
     // or, instead:
     // titleTemplate: (title) => `My App - ${title}`,
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'description', content: 'My amazing site.' }
+      { name: 'description', content: 'Join us as we celebrate the power of words, connect with inspiring storytellers, and explore the beauty of Singaraja.' }
     ],
     bodyAttrs: {
-      class: 'test'
+      class: 'slf'
     }
   })
   </script>

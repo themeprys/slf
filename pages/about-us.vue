@@ -19,13 +19,13 @@
   
   <script setup>
   useHead({
-    title: 'About Us - Singaraja Literary Festival',
+    title: 'About Us - Singaraja Literary Festival 2025',
     // or, instead:
     // titleTemplate: (title) => `My App - ${title}`,
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'description', content: 'My amazing site.' }
+      { name: 'description', content: 'A cultural initiative dedicated to documenting and revitalizing the intellectual wealth and literary traditions of Singaraja, Bali ' }
     ],
     bodyAttrs: {
       class: 'test'

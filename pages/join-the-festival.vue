@@ -64,10 +64,21 @@
 
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+useHead({
+  title: 'Join The Festival - Singaraja Literary Festival',
+  // or, instead:
+  // titleTemplate: (title) => `My App - ${title}`,
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    { name: 'description', content: 'By joining our festival, you’ll gain access to workshops, discussions, and performances that celebrate the art of storytelling' }
+  ],
+  bodyAttrs: {
+    class: 'slf'
+  }
+})
 </script>
+
 
 <style></style>
