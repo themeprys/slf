@@ -7,7 +7,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="1000">
       <div class="slf_overlay"></div>
       <div class="carousel-caption">
         <h5>Join The Festival</h5>
@@ -16,7 +16,7 @@
       </div>
       <img src="~/public/img/hero-00.webp" class="d-block w-100" alt="Company">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="5000">
       <div class="slf_overlay"></div>
       <div class="carousel-caption">
         <h5>Become Our Partners</h5>
