@@ -4,46 +4,62 @@
       <div class="row align-items-center g-lg-5 pt-5 pb-3">
           <div class="col-lg-7 text-center text-lg-start">
               <h1 class="display-4 fw-bold lh-1 mb-3">Join The Festival</h1>
-              <p class="col-lg-10 fs-4"><strong>Singaraja Literary Festival (SLF)</strong> is a cultural initiative
-                  dedicated to documenting and revitalizing the intellectual wealth and literary traditions of
-                  Singaraja, Bali. Known for <strong>Gedong Kirtya</strong>, the first and oldest lontar manuscript
-                  library in Bali, Singaraja holds an invaluable literary heritage.</p>
-              <p class="col-lg-10 fs-4">SLF aims to create spaces for dialogue, listening, and appreciation by
-                  exploring Balinese lontar manuscripts, hosting literacy discussions, cultural performances, and
-                  adapting literary works into theater and film. We believe literature is a bridge connecting the
-                  past, present, and future, enabling modern generations to deeply understand their cultural heritage.
-              </p>
-              <hr/>
+              <p class="col-lg-10 fs-4">Discover stories, share your passion for literature, and connect with creative minds from around the globe.</p>
+              <p class="col-lg-10 fs-4">By joining our festival, you’ll gain access to workshops, discussions, and performances that celebrate the art of storytelling</p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
               <img alt="Image" src="~/public/img/about-us.webp" class="img-fluid shadow">
           </div>
-      </div>          
-      <div class="row">
-          <div class="col fs-5">
-              <h3><strong>Our Vision</strong></h3>
-              <p>To reignite pride in Singaraja as a city of historical and cultural heritage.</p>
-              <h3><strong>Our Mission</strong></h3>
-              <ol>
-              <li aria-level="1">Unearth the roots of Singaraja's literary works &ndash; bringing them to the stage, discussing, and documenting them in modern forms.</li>
-              <li aria-level="1">Revitalize <strong>Gedong Kirtya</strong> as a hub of literacy and a public space.</li>
-              <li aria-level="1">Empower the younger generation through art and literature to create contemporary culture rooted in local values.</li>
-              </ol>
-              <h3><strong>What We Do</strong></h3>
-              <p>Each year, we organize the <strong>Singaraja Literary Festival</strong>, featuring:</p>
-              <ul>
-              <li aria-level="1"><strong>Workshops</strong>: Creative writing, lontar manuscript training, and literary idea discussions.</li>
-              <li aria-level="1"><strong>Performances and Exhibitions</strong>: Adaptation of literary works into theater and film, and appreciation of lontar manuscripts.</li>
-              <li aria-level="1"><strong>Discussions and Book Reviews</strong>: Delving into classical and modern literary potential.</li>
-              <li aria-level="1"><strong>Community Programs</strong>: Poetry competitions, children&rsquo;s games, and inclusive activities for children with disabilities.</li>
-              </ul>
-              <h3><strong>Why Singaraja?</strong></h3>
-              <p>Once the capital of the Lesser Sunda Islands, Singaraja has a long history as a center of intellectual and cultural development. From Buleleng Harbor, a historic gateway for trade, to Gedong Kirtya, home to ancient manuscripts, Singaraja remains a testament to the nation&rsquo;s evolving culture and literacy.</p>
-              <p>Through the <strong>Singaraja Literary Festival</strong>, we are committed to amplifying this potential&mdash;not only for local communities but for the world.</p>
-          </div>
       </div>
   </div>
-  <HomeClosingStatement />
+  <section class="bg-dark text-white">
+    <div class="container">
+      <div class="row justify-content-center py-5">
+        <div class="col-4 text-center">
+            <img
+              alt="Image"
+              src="~/public/img/Kadek-Sonia-Piscayanti.png"
+              class="avatar avatar-lg"
+              width="180px"
+            />
+        </div>
+        <div class="col-6">    
+              <p class="h2">
+                "We believe literature is a bridge connecting the past, present, and future, enabling modern generations to deeply understand their cultural heritage"
+              </p>
+              <span>Kadek Sonia Piscayanti, Founder SLF</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-light">
+    <div class="container py-5">
+
+      <div class="row justify-content-around align-items-center py-5">
+        <div class="col-8 col-md-6 col-lg-4">
+          <h3 class="h2"><i class="fa-solid fa-users"></i> Become Our Partners</h3>
+          <span class="lead">
+            <strong>Partner or Sponsor:</strong> Collaborate to support our literary community
+          </span>
+          <p class="pt-3"><nuxt-link class="btn btn-primary btn-lg" to="/contact-us">Contact Us ›</nuxt-link></p>              
+          <!-- <img alt="Image" src="~/public/img/about-us.webp" class="shadow" width="500px"> -->
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 text-md-left section-intro">
+          <!-- <span class="title-decorative">Designed for Developers</span> -->
+          <h3 class="h2"><i class="fa-solid fa-ticket"></i> Get Your Invitation</h3>
+          <span class="lead">
+          <strong>Register Today:</strong> Claim and Reserve your spot through our limited slot registration form
+          </span>
+          <p class="pt-3"><nuxt-link class="btn btn-primary btn-lg" to="/invitation">Get Invitation ›</nuxt-link></p>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- <HomeClosingStatement /> -->
 </div>
 
 </template>

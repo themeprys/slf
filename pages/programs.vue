@@ -7,11 +7,12 @@
           </div>
         </div>
       </div> -->
-      <!-- <HomeIntro /> -->
+      <HomeIntro />
       <!-- <HomeAbout />
       <HomeReinforcement /> -->
       <!-- <HomeHero /> -->
-      <HomeBenefit />
+
+
       <HomeClosingStatement />
     </div>
   </template>

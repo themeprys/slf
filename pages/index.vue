@@ -8,8 +8,8 @@
       </div>
     </div>
     <HomeIntro />
-    <HomeAbout />
     <HomeReinforcement />
+    <HomeAbout />
     <HomeHero />
     <HomeBenefit />
     <HomeClosingStatement />
