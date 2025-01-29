@@ -42,7 +42,7 @@
           <span class="lead">
             <strong>Partner or Sponsor:</strong> Collaborate to support our literary community
           </span>
-          <p class="pt-3"><nuxt-link class="btn btn-primary btn-lg" to="/contact-us">Contact Us ›</nuxt-link></p>              
+          <p class="pt-3"><nuxt-link class="btn btn-primary btn-lg" to="/partners">Contact Us ›</nuxt-link></p>              
           <!-- <img alt="Image" src="~/public/img/about-us.webp" class="shadow" width="500px"> -->
         </div>
         <div class="col-12 col-md-6 col-lg-5 text-md-left section-intro">
