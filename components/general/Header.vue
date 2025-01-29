@@ -10,8 +10,7 @@
           py-3
         "
       >
-        <a
-          href="/"
+        <nuxt-link to="/" 
           class="
             d-flex
             align-items-center
@@ -21,7 +20,7 @@
           "
         >
           <img src="~/public/logo_SLF.svg" alt="Singaraja Literary Festival" height="80"/>
-        </a>
+    </nuxt-link>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li><nuxt-link to="/" class="nav-link px-2 link-secondary">Home</nuxt-link></li>

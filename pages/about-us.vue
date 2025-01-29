@@ -8,11 +8,12 @@
         </div>
       </div> -->
       <!-- <HomeIntro /> -->
-      <HomeAbout />
+       <aboutpage />
+      <!-- <HomeAbout />
       <HomeReinforcement />
       <HomeHero />
       <HomeBenefit />
-      <HomeClosingStatement />
+      <HomeClosingStatement /> -->
     </div>
   </template>
   
