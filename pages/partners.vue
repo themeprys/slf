@@ -12,8 +12,6 @@
       <HomeReinforcement />
       <HomeHero /> -->
       <partner-page />
-      <HomeBenefit />
-      <HomeClosingStatement />
     </div>
   </template>
   

@@ -21,7 +21,7 @@
       <div class="carousel-caption">
         <h5>Become Our Partners</h5>
         <p>Experience the Magic of Singaraja Literary Festival</p>
-        <nuxt-link class="btn btn-primary btn-lg" to="/contact-us" role="button">Contact Us</nuxt-link>        
+        <nuxt-link class="btn btn-primary btn-lg" to="/partners" role="button">Contact Us</nuxt-link>        
       </div>
       <img src="~/public/img/hero-01.webp" class="d-block w-100" alt="Company">
     </div>
