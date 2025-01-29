@@ -23,7 +23,9 @@
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'description', content: 'As a sponsor, you’ll connect with a vibrant audience of creatives, writers, and thinkers while showcasing your commitment to culture and education.' }
+      { name: 'description', content: 'As a sponsor, you’ll connect with a vibrant audience of creatives, writers, and thinkers while showcasing your commitment to culture and education.',
+              ogImage: '~/public/img/logoslf.png'
+       }
     ],
     bodyAttrs: {
       class: 'slf'

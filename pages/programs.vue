@@ -26,7 +26,9 @@
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'description', content: 'Celebration of culture and literacy dedicated to reviving the rich literary heritage and intellectual traditions of Singaraja centered at Gedong Kirtya' }
+      { name: 'description', content: 'Celebration of culture and literacy dedicated to reviving the rich literary heritage and intellectual traditions of Singaraja centered at Gedong Kirtya',
+      ogImage: '~/public/img/logoslf.png'
+       }
     ],
     bodyAttrs: {
       class: 'test'

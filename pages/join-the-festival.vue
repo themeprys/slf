@@ -72,7 +72,9 @@ useHead({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'By joining our festival, you’ll gain access to workshops, discussions, and performances that celebrate the art of storytelling' }
+    { name: 'description', content: 'By joining our festival, you’ll gain access to workshops, discussions, and performances that celebrate the art of storytelling',
+            ogImage: '~/public/img/logoslf.png'
+     }
   ],
   bodyAttrs: {
     class: 'slf'

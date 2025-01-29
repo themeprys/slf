@@ -23,7 +23,9 @@
     viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
     charset: 'utf-8',
     meta: [
-      { name: 'description', content: 'Join us as we celebrate the power of words, connect with inspiring storytellers, and explore the beauty of Singaraja.' }
+      { name: 'description', content: 'Join us as we celebrate the power of words, connect with inspiring storytellers, and explore the beauty of Singaraja.',
+              ogImage: '~/public/img/logoslf.png'
+       }
     ],
     bodyAttrs: {
       class: 'slf'
