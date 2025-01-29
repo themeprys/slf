@@ -12,7 +12,7 @@
       <div class="carousel-caption">
         <h5>Join The Festival</h5>
         <p>Experience the Magic of Singaraja Literary Festival</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+        <nuxt-link class="btn btn-primary btn-lg" to="/about-us" role="button">Read More</nuxt-link>
       </div>
       <img src="~/public/img/hero-00.webp" class="d-block w-100" alt="Company">
     </div>
@@ -21,7 +21,7 @@
       <div class="carousel-caption">
         <h5>Become Our Partners</h5>
         <p>Experience the Magic of Singaraja Literary Festival</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>        
+        <nuxt-link class="btn btn-primary btn-lg" to="/contact-us" role="button">Contact Us</nuxt-link>        
       </div>
       <img src="~/public/img/hero-01.webp" class="d-block w-100" alt="Company">
     </div>
@@ -30,7 +30,7 @@
       <div class="carousel-caption">
         <h5>Get Your Invitation</h5>
         <p>Experience the Magic of Singaraja Literary Festival</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up Now</a>
+        <nuxt-link class="btn btn-primary btn-lg" to="/invitation" role="button">Sign Up Now</nuxt-link>
       </div>
       <img src="~/public/img/hero-02.webp" class="d-block w-100" alt="Company">
     </div>
