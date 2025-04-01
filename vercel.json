@@ -3,14 +3,5 @@
   "framework": "nuxtjs",
   "buildCommand": "npx nuxt build",
   "outputDirectory": ".output/server",
-  "installCommand": "npm install",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "runtime": "nodejs18.x"
-      }
-    }
-  ]
+  "installCommand": "npm install"
 } 
