@@ -15,8 +15,7 @@
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]
-    },
-    "types": ["@nuxt/types", "@nuxtjs/vercel-builder"]
+    }
   },
   "exclude": ["node_modules"]
 }
