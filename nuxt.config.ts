@@ -21,5 +21,8 @@ export default defineNuxtConfig({
                 'events': 'events'
             }
         }
+    },
+    nitro: {
+        preset: 'vercel'
     }
 })
