@@ -35,7 +35,7 @@ export default defineNuxtConfig({
         preset: 'vercel',
         vercel: {
             functions: {
-                'api/**/*': {
+                '**/*': {
                     runtime: 'nodejs18.x'
                 }
             }
