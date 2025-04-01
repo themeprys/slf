@@ -8,5 +8,18 @@ export default defineNuxtConfig({
             cosmicReadKey: process.env.COSMIC_READ_KEY,
             cosmicWriteKey: process.env.COSMIC_WRITE_KEY,
         }
+    },
+    vite: {
+        define: {
+            'process.env': {}
+        },
+        optimizeDeps: {
+            include: ['events']
+        },
+        resolve: {
+            alias: {
+                'events': 'events'
+            }
+        }
     }
 })
