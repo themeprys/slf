@@ -24,16 +24,19 @@ export default defineNuxtConfig({
         }
     },
     nitro: {
-        preset: 'vercel',
-        prerender: {
-            crawlLinks: true,
-            routes: ['/']
-        },
         runtimeConfig: {
             node: true,
-            nitro: {
-                routeRules: {
-                    '/**': { cors: true }
+            routeRules: {
+                '/**': {
+                    cors: true
+                }
+            }
+        },
+        preset: 'vercel',
+        vercel: {
+            functions: {
+                'api/**/*': {
+                    runtime: 'nodejs18.x'
                 }
             }
         }
