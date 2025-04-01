@@ -8,11 +8,13 @@
     "allowJs": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "types": ["node"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]
-    }
+    },
+    "types": ["@types/node"]
   },
   "ts-node": {
     "compilerOptions": {
