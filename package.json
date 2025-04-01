@@ -10,6 +10,7 @@
     "postinstall": "npx nuxt prepare"
   },
   "dependencies": {
+    "@cosmicjs/sdk": "^1.5.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "cosmicjs": "^5.0.0",
     "nuxt": "^3.10.3",
