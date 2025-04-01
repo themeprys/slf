@@ -24,14 +24,6 @@ export default defineNuxtConfig({
         }
     },
     nitro: {
-        preset: 'vercel',
-        routeRules: {
-            '/**': {
-                cors: true,
-                headers: {
-                    'Cache-Control': 'no-cache'
-                }
-            }
-        }
+        preset: 'vercel'
     }
 })
