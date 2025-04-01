@@ -24,14 +24,14 @@ export default defineNuxtConfig({
         }
     },
     nitro: {
-        runtimeConfig: {
-            node: true,
-            routeRules: {
-                '/**': {
-                    cors: true
+        preset: 'vercel',
+        routeRules: {
+            '/**': {
+                cors: true,
+                headers: {
+                    'Cache-Control': 'no-cache'
                 }
             }
-        },
-        preset: 'vercel'
+        }
     }
 })

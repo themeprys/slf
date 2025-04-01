@@ -2,7 +2,7 @@
   "version": 2,
   "framework": "nuxtjs",
   "buildCommand": "npx nuxt build",
-  "outputDirectory": ".output/public",
+  "outputDirectory": ".output/server",
   "installCommand": "npm install",
   "builds": [
     {
@@ -12,5 +12,24 @@
         "runtime": "nodejs18.x"
       }
     }
-  ]
+  ],
+  "routes": [
+    {
+      "src": "/_nuxt/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "functions": {
+    "api/**/*": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
 } 
