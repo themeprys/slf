@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "framework": "nuxtjs",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".output/server",
-  "installCommand": "npm install"
+  "framework": "nuxtjs"
 } 
