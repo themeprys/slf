@@ -28,6 +28,14 @@ export default defineNuxtConfig({
         prerender: {
             crawlLinks: true,
             routes: ['/']
+        },
+        runtimeConfig: {
+            node: true,
+            nitro: {
+                routeRules: {
+                    '/**': { cors: true }
+                }
+            }
         }
     }
 })

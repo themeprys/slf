@@ -1,4 +1,15 @@
 {
   "version": 2,
-  "framework": "nuxtjs"
+  "framework": "nuxtjs",
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": ["server/**"],
+        "generateStaticRoutes": false,
+        "runtime": "nodejs18.x"
+      }
+    }
+  ]
 } 
