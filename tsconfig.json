@@ -1,5 +1,6 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -8,18 +9,7 @@
     "allowJs": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
-    },
-    "types": ["@types/node"],
-    "jsx": "preserve",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "types": ["@types/node"]
   },
   "ts-node": {
     "compilerOptions": {
