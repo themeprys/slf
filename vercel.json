@@ -4,24 +4,7 @@
   "builds": [
     {
       "src": "nuxt.config.ts",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": ["server/**"],
-        "generateStaticRoutes": false
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/_nuxt/(.*)",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-      },
-      "continue": true
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "use": "@nuxtjs/vercel-builder"
     }
   ]
 } 
