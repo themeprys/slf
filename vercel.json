@@ -4,7 +4,6 @@
   "buildCommand": "npx nuxt build",
   "outputDirectory": ".output/server",
   "installCommand": "npm install",
-  "runtime": "nodejs18.x",
   "routes": [
     {
       "src": "/_nuxt/(.*)",
