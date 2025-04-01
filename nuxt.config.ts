@@ -32,13 +32,6 @@ export default defineNuxtConfig({
                 }
             }
         },
-        preset: 'vercel',
-        vercel: {
-            functions: {
-                '**/*': {
-                    runtime: 'nodejs18.x'
-                }
-            }
-        }
+        preset: 'vercel'
     }
 })
