@@ -1,16 +1,7 @@
 {
   "version": 2,
   "framework": "nuxtjs",
-  "builds": [
-    {
-      "src": "nuxt.config.ts",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": ["server/**"],
-        "generateStaticRoutes": false,
-        "runtime": "nodejs18.x"
-      }
-    }
-  ],
+  "buildCommand": "npx nuxt build",
+  "outputDirectory": ".output/public",
   "installCommand": "npm install"
 } 
