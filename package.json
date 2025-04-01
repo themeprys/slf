@@ -15,8 +15,7 @@
   "devDependencies": {
     "nuxt": "3.0.0-rc.11",
     "typescript": "4.8.4",
-    "@types/node": "18.11.18",
-    "@nuxtjs/vercel-builder": "^0.25.0"
+    "@types/node": "18.11.18"
   },
   "dependencies": {
     "@cosmicjs/sdk": "^1.5.1",
