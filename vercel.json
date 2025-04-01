@@ -1,10 +1,4 @@
 {
   "version": 2,
-  "framework": "nuxtjs",
-  "builds": [
-    {
-      "src": "nuxt.config.ts",
-      "use": "@nuxtjs/vercel-builder"
-    }
-  ]
+  "framework": "nuxtjs"
 } 
