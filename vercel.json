@@ -2,11 +2,27 @@
   "version": 2,
   "buildCommand": "yarn build",
   "outputDirectory": ".output/public",
-  "framework": "nuxt",
+  "framework": "nuxtjs",
   "builds": [
     {
       "src": "nuxt.config.ts",
-      "use": "@nuxtjs/vercel-builder"
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": ["server/**"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/_nuxt/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 } 

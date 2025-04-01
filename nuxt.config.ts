@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     css: ['~/public/main.css'],
     devtools: { enabled: true },
+    ssr: true,
     runtimeConfig: {
         public: {
             cosmicBucketSlug: process.env.COSMIC_BUCKET_SLUG,
@@ -23,6 +24,10 @@ export default defineNuxtConfig({
         }
     },
     nitro: {
-        preset: 'vercel'
+        preset: 'vercel',
+        prerender: {
+            crawlLinks: true,
+            routes: ['/']
+        }
     }
 })
