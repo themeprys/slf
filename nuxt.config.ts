@@ -25,11 +25,6 @@ export default defineNuxtConfig({
     },
     nitro: {
         preset: 'vercel',
-        prerender: false,
-        routeRules: {
-            '/**': {
-                cors: true
-            }
-        }
+        prerender: false
     }
 })
