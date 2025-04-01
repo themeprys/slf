@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "framework": "nuxtjs"
+  "framework": "nuxtjs",
+  "buildCommand": "nuxt build --preset=vercel_edge",
+  "outputDirectory": ".output",
+  "installCommand": "npm install"
 } 

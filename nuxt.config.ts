@@ -10,21 +10,7 @@ export default defineNuxtConfig({
             cosmicWriteKey: process.env.COSMIC_WRITE_KEY,
         }
     },
-    vite: {
-        define: {
-            'process.env': {}
-        },
-        optimizeDeps: {
-            include: ['events']
-        },
-        resolve: {
-            alias: {
-                'events': 'events'
-            }
-        }
-    },
     nitro: {
-        preset: 'vercel-edge',
-        prerender: false
+        preset: 'vercel'
     }
 })
