@@ -25,9 +25,9 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li><nuxt-link to="/" class="nav-link px-2 link-secondary">Home</nuxt-link></li>
           <li><nuxt-link to="/about-us" class="nav-link px-2 link-dark">About Us</nuxt-link></li>
-          <li><nuxt-link to="/program" class="nav-link px-2 link-dark">Program</nuxt-link></li>
-          <li><nuxt-link to="/berita" class="nav-link px-2 link-dark">Berita</nuxt-link></li>
-          <li><nuxt-link to="/jadwal" class="nav-link px-2 link-dark">Jadwal</nuxt-link></li>
+          <li><nuxt-link to="/program" class="nav-link px-2 link-dark">Programs</nuxt-link></li>
+          <li><nuxt-link to="/berita" class="nav-link px-2 link-dark">News</nuxt-link></li>
+          <li><nuxt-link to="/jadwal" class="nav-link px-2 link-dark">Schedule</nuxt-link></li>
           <li><nuxt-link to="/join-the-festival" class="nav-link px-2 link-dark">Join the Festival</nuxt-link></li>
           <li><nuxt-link to="/partners" class="nav-link px-2 link-dark">Partners</nuxt-link></li>          
         </ul>

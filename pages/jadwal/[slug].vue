@@ -21,7 +21,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <nuxt-link to="/jadwal" class="text-decoration-none">Jadwal</nuxt-link>
+              <nuxt-link to="/jadwal" class="text-decoration-none">Schedule</nuxt-link>
             </li>
             <li class="breadcrumb-item active" aria-current="page">{{ jadwal.title }}</li>
           </ol>

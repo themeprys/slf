@@ -2,10 +2,10 @@
   <div class="container py-5">
     <div class="row">
       <div class="col-12">
-        <h1 class="display-4 fw-bold mb-4">Program Kami</h1>
+        <h1 class="display-4 fw-bold mb-0 pb-0 text-center">Our Programs</h1>
       </div>
     </div>
-    
+    <Programintro />
     <div class="row">
       <div v-if="pending" class="col-12 text-center">
         <div class="spinner-border" role="status">
@@ -43,6 +43,8 @@
 </template>
 
 <script setup>
+import Programintro from '~/components/programintro.vue'
+
 const { getObjects } = useCosmic()
 
 // Fetch programs data

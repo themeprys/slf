@@ -21,7 +21,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <nuxt-link to="/berita" class="text-decoration-none">Berita</nuxt-link>
+              <nuxt-link to="/berita" class="text-decoration-none">News</nuxt-link>
             </li>
             <li class="breadcrumb-item active" aria-current="page">{{ berita.title }}</li>
           </ol>
