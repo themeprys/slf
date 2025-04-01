@@ -10,6 +10,13 @@
     "lib": ["ESNext", "DOM"],
     "esModuleInterop": true,
     "allowJs": true,
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "types": ["@nuxt/types", "@nuxtjs/vercel-builder"]
+  },
+  "exclude": ["node_modules"]
 }

@@ -14,7 +14,9 @@
     "nuxt": "3.0.0-rc.11",
     "typescript": "^5.0.0",
     "@types/node": "^18.0.0",
-    "@nuxtjs/vercel-builder": "^0.25.0"
+    "@nuxtjs/vercel-builder": "^0.25.0",
+    "@nuxt/types": "^2.15.0",
+    "@nuxt/typescript-build": "^3.0.0"
   },
   "dependencies": {
     "@cosmicjs/sdk": "^1.5.1",
