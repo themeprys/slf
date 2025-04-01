@@ -4,16 +4,19 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": ["ESNext", "DOM"],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "resolveJsonModule": true,
     "strict": true,
-    "skipLibCheck": true,
-    "baseUrl": ".",
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
     }
   },
   "exclude": ["node_modules"]
