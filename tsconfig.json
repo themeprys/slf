@@ -1,9 +1,6 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "strict": true,
-    "skipLibCheck": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -11,6 +8,8 @@
     "esModuleInterop": true,
     "allowJs": true,
     "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./*"],
