@@ -9,7 +9,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="1000">
       <div class="slf_overlay"></div>
-      <div class="carousel-caption">
+      <div class="carousel-caption pt-6">
         <h5>Join The Festival</h5>
         <p>Experience the Magic of Singaraja Literary Festival</p>
         <nuxt-link class="btn btn-primary btn-lg" to="/about-us" role="button">Read More</nuxt-link>
