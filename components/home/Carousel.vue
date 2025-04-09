@@ -54,5 +54,7 @@ export default {
 </script>
 
 <style>
-
+.carousel-caption {
+    text-align: left;
+}
 </style>
