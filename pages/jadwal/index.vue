@@ -26,7 +26,7 @@
               <div class="card h-100">
                 <img 
                   :src="jadwal.metadata.poster_kegiatan.imgix_url" 
-                  class="card-img-top program-thumbnail" 
+                  class="card-img-top" 
                   :alt="jadwal.title"
                 >
                 <div class="card-body">

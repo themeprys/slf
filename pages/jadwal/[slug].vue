@@ -29,18 +29,23 @@
 
         <div class="jadwal-header mb-5">
           <h1 class="display-4 fw-bold mb-4">{{ jadwal.title }}</h1>
-          <div class="jadwal-image-container mb-4">
+          <!-- <div class="jadwal-image-container mb-4">
             <img 
               :src="jadwal.metadata.poster_kegiatan.imgix_url" 
               :alt="jadwal.title"
               class="img-fluid rounded program-detail-image"
             >
-          </div>
+          </div> -->
         </div>
 
         <div class="jadwal-content">
           <div class="row">
             <div class="col-lg-8">
+              <img 
+              :src="jadwal.metadata.poster_kegiatan.imgix_url" 
+              :alt="jadwal.title"
+              class="img-fluid rounded mb-5"
+            >
               <div class="jadwal-description" v-html="jadwal.metadata.body_kegiatan"></div>
             </div>
             <div class="col-lg-4">
