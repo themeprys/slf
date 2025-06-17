@@ -26,7 +26,7 @@
               <div class="card h-100">
                 <img 
                   :src="berita.metadata.foto_berita.imgix_url" 
-                  class="card-img-top program-thumbnail" 
+                  class="card-img-top" 
                   :alt="berita.title"
                 >
                 <div class="card-body">
