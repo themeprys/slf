@@ -42,8 +42,8 @@
           <div class="row">
             <div class="col-lg-8">
               <img 
-              :src="jadwal.metadata.foto_berita.imgix_url" 
-              :alt="jadwal.title"
+              :src="berita.metadata.foto_berita.imgix_url" 
+              :alt="berita.title"
               class="img-fluid rounded mb-5"
             >              
               <div class="berita-description" v-html="berita.metadata.body_berita"></div>
